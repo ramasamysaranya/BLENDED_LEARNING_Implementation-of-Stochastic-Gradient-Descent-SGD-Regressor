@@ -10,6 +10,7 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
 
 ## Algorithm
 1.Load and preprocess the dataset by removing unnecessary columns, converting categorical data, and standardizing features and target.
+
 2.Split the dataset into training and testing sets.
 
 3.Train the SGD Regressor model using the training data and predict prices for the test data.
