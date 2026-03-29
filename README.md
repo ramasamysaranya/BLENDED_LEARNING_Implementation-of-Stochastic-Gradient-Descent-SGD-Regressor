@@ -9,10 +9,12 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Load the car price dataset, select relevant numerical features (enginesize, horsepower, citympg, highwaympg) as input variables, and set price as the target variable. Split the data into training and testing sets.
-2. Apply standardization to the training features using StandardScaler and transform the testing features using the same scaler to ensure consistent feature scaling.
-3. Train a Linear Regression model using the scaled training data, predict prices for the test data, and evaluate model performance using MSE, RMSE, and R-squared metrics along with model coefficients.
-4. Check linearity using actual vs predicted plots, test independence of errors using the Durbin–Watson statistic, assess homoscedasticity through residual plots, and verify normality of residuals using histogram and Q–Q plots.
+1.Load and preprocess the dataset by removing unnecessary columns, converting categorical data, and standardizing features and target.
+2.Split the dataset into training and testing sets.
+
+3.Train the SGD Regressor model using the training data and predict prices for the test data.
+
+4.Evaluate the model using MSE and R² score, then visualize actual vs predicted prices using a scatter plot .
 
 ## Program:
 ```
